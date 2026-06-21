@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Babar Akram Software House</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+    <img src="profile.jpg" alt="CEO">
+    <h1>Babar Akram</h1>
+    <h3>Founder & CEO</h3>
+    <p>Professional Software House providing Web, AI & Mobile Solutions</p>
+</div>
+
+<!-- MENU -->
+<div class="menu">
+    <button class="tab active" onclick="showTab('about', this)">🏢 About</button>
+    <button class="tab" onclick="showTab('services', this)">⚙️ Services</button>
+    <button class="tab" onclick="showTab('team', this)">👨‍💻 Team</button>
+    <button class="tab" onclick="showTab('projects', this)">🚀 Projects</button>
+    <button class="tab" onclick="showTab('contact', this)">📞 Contact</button>
+</div>
+
+<!-- CONTENT -->
+<div class="content">
+
+    <div id="about" class="tab-content active">
+        <h2>About Us</h2>
+        <p>We build modern digital solutions for businesses using latest technologies.</p>
+    </div>
+
+    <div id="services" class="tab-content">
+        <h2>Services</h2>
+
+        <div class="grid">
+            <div class="card">🌐 Web Development</div>
+            <div class="card">📱 Mobile Apps</div>
+            <div class="card">🤖 AI Solutions</div>
+            <div class="card">🗄️ Database Systems</div>
+        </div>
+    </div>
+
+    <div id="team" class="tab-content">
+        <h2>Our Team</h2>
+
+        <div class="grid">
+            <div class="card">🧑‍💻 Frontend Developer</div>
+            <div class="card">🧑‍💻 Backend Developer</div>
+            <div class="card">🎨 UI/UX Designer</div>
+            <div class="card">🧠 AI Engineer</div>
+            <div class="card">📊 Project Manager</div>
+            <div class="card">🗃️ Database Admin</div>
+        </div>
+    </div>
+
+    <div id="projects" class="tab-content">
+        <h2>Projects</h2>
+
+        <div class="grid">
+            <div class="card">University Management System</div>
+            <div class="card">Online Paper Management System</div>
+            <div class="card">Course Registration Portal</div>
+        </div>
+    </div>
+
+    <div id="contact" class="tab-content">
+        <h2>Contact</h2>
+
+        <div class="card">📧 babarakram339@gmail.com</div>
+        <div class="card">📱 03345458844</div>
+        <div class="card">📍 luddan vehari</div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+  </html>
